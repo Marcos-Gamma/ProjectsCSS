@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+a.menu{
+    position: absolute;
+    top: 0;
+    left: 44%;
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 5px;
+    margin: 20px 0;
+    background-color: bisque;
+    color:seagreen;
+    width: 150px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+
+.bg{
+    height: 100%;
+    width: 100%;
+    /* background-image: url(https://wallpaper.dog/large/20378917.jpg); */
+    background-size:cover;
+    background-position:center;
+    z-index: -1;
+}
+.loading-text{
+    z-index: 1;
+    position: fixed;
+    top: 50%;
+    left: 45%;
+    color: white;
+    font-size: 4rem;
+}
+
+body>aside{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0%;
+    display: flex;
+    justify-content: space-between;
+}
+body>aside>section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+body>aside>section>div{
+    height: 8rem;
+    width: 8rem;
+    border: 2px solid;
+    background-color: white;
+}
+.active{
+    z-index: 1;
+    /* background-image:url(https://wallpaper.dog/large/20378917.jpg); */
+    height: 8rem;
+    width: 8rem;
+}

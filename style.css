@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+}
+body{
+    display: flex;
+    /* justify-content:space-between; */
+    flex-wrap: wrap;
+    background-color: azure;
+    height: 100vh;
+    width: 100vw;
+}
+body>a{
+    cursor: pointer;
+    height: 25%;
+    width: 25%;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* a{
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 5px;
+    margin: 20px 0;
+    background-color: bisque;
+    color:darkslategray;
+    width: 150px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
